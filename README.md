@@ -1,4 +1,4 @@
-# Cupper
+# PaperCSS
 
 TODO netlify status
 
@@ -19,7 +19,7 @@ TODO description
 
 ## Demo
 
-https://paper-hugo-theme.netlify.com/
+https://papercss-hugo-theme.netlify.com/
 
 ## Minimum Hugo version
 
@@ -30,7 +30,7 @@ Hugo version `0.48` or higher is required. View the [Hugo releases](https://gith
 From the root of your site:
 
 ```
-git submodule add https://github.com/zwbetz-gh/paper-hugo-theme.git themes/paper-hugo-theme
+git submodule add https://github.com/zwbetz-gh/papercss-hugo-theme.git themes/papercss-hugo-theme
 ```
 
 ## Updating
@@ -43,7 +43,7 @@ git submodule update --remote --merge
 
 ## Run example site
 
-From the root of `themes/paper-hugo-theme/exampleSite`:
+From the root of `themes/papercss-hugo-theme/exampleSite`:
 
 ```
 hugo server --themesDir ../..

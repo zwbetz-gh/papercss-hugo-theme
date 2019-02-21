@@ -1,8 +1,8 @@
 name = "PaperCSS"
 license = "MIT"
-licenselink = "https://github.com/zwbetz-gh/paper-hugo-theme/blob/master/LICENSE"
+licenselink = "https://github.com/zwbetz-gh/papercss-hugo-theme/blob/master/LICENSE"
 description = "TODO"
-homepage = "https://github.com/zwbetz-gh/paper-hugo-theme"
+homepage = "https://github.com/zwbetz-gh/papercss-hugo-theme"
 tags = ["TODO"]
 features = ["TODO"]
 min_version = "0.48"
