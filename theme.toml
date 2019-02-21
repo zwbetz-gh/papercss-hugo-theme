@@ -1,0 +1,12 @@
+name = "PaperCSS"
+license = "MIT"
+licenselink = "https://github.com/zwbetz-gh/paper-hugo-theme/blob/master/LICENSE"
+description = "TODO"
+homepage = "https://github.com/zwbetz-gh/paper-hugo-theme"
+tags = ["TODO"]
+features = ["TODO"]
+min_version = "0.48"
+
+[author]
+  name = "Zachary Betz"
+  homepage = "https://zwbetz.com/"
