@@ -1,0 +1,17 @@
+{{ $arg := .Get 0 }}
+{{ $class := "" }}
+{{ if eq $arg "dashed" }}
+  {{ $class = "border-dashed" }}
+{{ else if eq $arg "dotted" }}
+  {{ $class = "border-dotted" }}
+{{ else if eq $arg "dashed thick" }}
+  {{ $class = "border-dashed border-thick" }}
+{{ else if eq $arg "dotted thick" }}
+  {{ $class = "border-dashed border-thick" }}
+{{ end }}
+
+<div class="child-borders">
+  <p class="sm col {{ $class }}">
+    {{ .Inner }}
+  </p>
+</div>
