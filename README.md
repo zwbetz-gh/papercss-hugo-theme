@@ -59,8 +59,7 @@ Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) t
 
 ## Shortcodes
 
-TODO link
-
+See the [full list of supported shortcodes](https://papercss-hugo-theme.netlify.com/papercss-shortcodes/).
 
 ## Getting help
 
