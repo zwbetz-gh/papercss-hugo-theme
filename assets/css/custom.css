@@ -1,3 +1,6 @@
+html {
+  font-size: calc(1em + 0.33vw);
+}
 body {
   background-image: url('{{ "img/geometry2.png" | absURL }}');
 }
