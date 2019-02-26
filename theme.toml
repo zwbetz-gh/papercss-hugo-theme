@@ -1,7 +1,7 @@
 name = "PaperCSS"
 license = "MIT"
 licenselink = "https://github.com/zwbetz-gh/papercss-hugo-theme/blob/master/LICENSE"
-description = "TODO"
+description = "A Hugo theme made with PaperCSS, the less formal CSS framework."
 homepage = "https://github.com/zwbetz-gh/papercss-hugo-theme"
 tags = ["TODO"]
 features = ["TODO"]

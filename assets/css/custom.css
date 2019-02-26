@@ -1,0 +1,10 @@
+body {
+  background-image: url('{{ "img/geometry2.png" | absURL }}');
+}
+a,
+a:visited {
+  color: rgb(0, 0, 238);
+}
+blockquote {
+  font-style: italic;
+}

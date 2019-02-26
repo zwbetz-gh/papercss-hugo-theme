@@ -2,7 +2,7 @@
 
 TODO netlify status
 
-TODO description 
+A Hugo theme made with PaperCSS, the less formal CSS framework.
 
 ## Table of contents
 
