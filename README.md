@@ -68,4 +68,4 @@ If you run into an issue that isn't answered by this documentation or the exampl
 
 ## Credits
 
-TODO credits 
+Thank you to [Rhyne Vlaservich](https://www.vlaservich.com/) for creating [PaperCSS](https://www.getpapercss.com/), and all the  [contributers](https://github.com/papercss/papercss/graphs/contributors).
