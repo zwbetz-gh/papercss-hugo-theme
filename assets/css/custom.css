@@ -5,6 +5,10 @@ a,
 a:visited {
   color: rgb(0, 0, 238);
 }
+nav a,
+nav a:visited {
+  color: #41403e;
+}
 blockquote {
   font-style: italic;
 }
