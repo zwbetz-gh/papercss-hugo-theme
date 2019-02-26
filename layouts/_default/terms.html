@@ -6,11 +6,11 @@
   {{ $name := .Name }}
   {{ $count := .Count }}
   {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
-  <p>
+  <h2>
     <a href="{{ .Permalink }}">
       {{ printf "(%d) %s" $count $name }}
     </a>
-  </p>
+  </h2>
   {{ end }}
 {{ end }}
 
