@@ -15,3 +15,6 @@ nav a:visited {
 blockquote {
   font-style: italic;
 }
+.post-title {
+  margin-bottom: 0.1em; 
+}
