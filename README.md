@@ -15,6 +15,7 @@ A Hugo theme made with PaperCSS, the less formal CSS framework.
 - [Favicons](#favicons)
 - [Shortcodes](#shortcodes)
 - [Disable toc for a blog post](#disable-toc-for-a-blog-post)
+- [Disable summary for a blog post](#disable-summary-for-a-blog-post)
 - [Getting help](#getting-help)
 - [Credits](#credits)
 
@@ -73,6 +74,16 @@ toc: false
 ---
 ```
 
+## Disable summary for a blog post
+
+The homepage blog post listing shows a summary for each post. To disable this for an individual post set `summary` to `false`. For example:
+
+```
+---
+title: "My page with some stellar content"
+summary: false
+---
+```
 
 ## Getting help
 

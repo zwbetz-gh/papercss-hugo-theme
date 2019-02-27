@@ -2,6 +2,7 @@
 title: "PaperCSS Typography"
 date: 2019-02-22T20:53:58-06:00
 tags: [typography, markdown]
+summary: false 
 ---
 
 ## Headings
