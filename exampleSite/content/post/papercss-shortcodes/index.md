@@ -214,16 +214,30 @@ Alert-danger
 
 ## card
 
+The `img` param accepts an [image page resource](https://gohugo.io/content-management/page-resources/) name. 
+
+The `command` and `options` params accept [image processing](https://gohugo.io/content-management/image-processing/#readout) args. 
+
+Required params: `img`, `command`, `options`.
+
+Optional params: `title`, `subtitle`, `text`.
+
 ```
-TODO
+{{</* card
+img="sun.jpg"
+command="Resize"
+options="900x"
+title="The Sun"
+subtitle="It's the Sun, dude"
+text="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)." */>}}
 ```
 
-<div class="card row flex-center" style="width: 20rem;">
-  <img src="https://picsum.photos/768" alt="Card example image">
 
-  <div class="card-body">
-    <h4 class="card-title">My awesome Paper card!</h4>
-    <h5 class="card-subtitle">Nice looking subtitle.</h5>
-    <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-  </div>
-</div>
+
+{{< card
+img="sun.jpg"
+command="Resize"
+options="900x"
+title="The Sun"
+subtitle="It's the Sun, dude"
+text="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)." >}}
