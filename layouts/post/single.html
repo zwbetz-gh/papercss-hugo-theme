@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <h1 class="post-title">{{ .Title }}</h1>
+
 {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
 <strong>Publish date: </strong>{{ .PublishDate.Format $dateFormat }}
 <br>
@@ -10,6 +11,11 @@
     <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
 {{ end }}
+
+{{ if ne .Params.toc false }}
+  {{ partial "toc.html" . }}
+{{ end }}
+
 {{ .Content }}
   
 {{ end }}

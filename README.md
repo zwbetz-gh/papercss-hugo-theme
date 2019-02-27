@@ -14,6 +14,7 @@ A Hugo theme made with PaperCSS, the less formal CSS framework.
 - [Configuration](#configuration)
 - [Favicons](#favicons)
 - [Shortcodes](#shortcodes)
+- [Disable toc for a blog post](#disable-toc-for-a-blog-post)
 - [Getting help](#getting-help)
 - [Credits](#credits)
 
@@ -60,6 +61,18 @@ Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) t
 ## Shortcodes
 
 See the [full list of supported shortcodes](https://papercss-hugo-theme.netlify.com/papercss-shortcodes/).
+
+## Disable toc for a blog post
+
+Blog posts that have two or more subheadings (`<h2>`s) automatically get a table of contents. To disable this set `toc` to `false`. For example:
+
+```
+---
+title: "My page with a few headings"
+toc: false
+---
+```
+
 
 ## Getting help
 

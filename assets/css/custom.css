@@ -1,20 +1,47 @@
+/* base */
 html {
   font-size: calc(1em + 0.33vw);
 }
 body {
   background-image: url('{{ "img/geometry2.png" | absURL }}');
 }
+
+/* anchors */
 a,
 a:visited {
   color: rgb(0, 0, 238);
+  background-image: none;
+  text-decoration: underline;
 }
+
+/* navbar */
 nav a,
 nav a:visited {
   color: #41403e;
+  text-decoration: none;
 }
+
+/* blockquote */
 blockquote {
   font-style: italic;
 }
+
+/* post list */
+.post-list {
+  font-size: 2em; 
+}
+
+/* post single */
 .post-title {
   margin-bottom: 0.1em; 
+}
+
+/* toc */
+.toc {
+  font-size: 0.85em;
+  padding: 1em;
+  margin-top: 1em;
+}
+.toc h2 {
+  font-size: 1.15em;
 }

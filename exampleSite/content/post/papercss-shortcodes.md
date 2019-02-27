@@ -4,9 +4,13 @@ date: 2019-02-26T13:50:01-06:00
 tags: [shortcodes]
 ---
 
-## Border
+## border
 
 ```
+{{</* border */>}}
+Regular
+{{</* /border */>}}
+
 {{</* border "dashed" */>}}
 Dashed
 {{</* /border */>}}
@@ -24,6 +28,10 @@ Dotted Thick
 {{</* /border */>}}
 ```
 
+{{< border >}}
+Regular
+{{< /border >}}
+
 {{< border "dashed" >}}
 Dashed
 {{< /border >}}
@@ -40,7 +48,7 @@ Dashed Thick
 Dotted Thick
 {{< /border >}}
 
-## Color
+## color
 
 ```
 {{</* color "primary" */>}}
@@ -92,7 +100,7 @@ Text danger
 Text muted
 {{< /color >}}
 
-## Background
+## background
 
 ```
 {{</* background "primary" */>}}
@@ -136,7 +144,7 @@ Background warning
 Background danger
 {{< /background >}}
 
-## Alert
+## alert
 
 ```
 {{</* alert "primary" */>}}
@@ -180,18 +188,18 @@ Alert-warning
 Alert-danger
 {{< /alert >}}
 
-## Badge
+## badge
 
 ```
 <h3>Example badge {{</* badge */>}}123{{</* /badge */>}}</h3>
 
-<h3>Example badge {{</* badge "secondary" >}}123{{</* /badge */>}}</h3>
+<h3>Example badge {{</* badge "secondary" */>}}123{{</* /badge */>}}</h3>
 
-<h3>Example badge {{</* badge "success" >}}123{{</* /badge */>}}</h3>
+<h3>Example badge {{</* badge "success" */>}}123{{</* /badge */>}}</h3>
 
-<h3>Example badge {{</* badge "warning" >}}123{{</* /badge */>}}</h3>
+<h3>Example badge {{</* badge "warning" */>}}123{{</* /badge */>}}</h3>
 
-<h3>Example badge {{</* badge "danger" >}}123{{</* /badge */>}}</h3>
+<h3>Example badge {{</* badge "danger" */>}}123{{</* /badge */>}}</h3>
 ```
 
 <h3>Example badge {{< badge >}}123{{< /badge >}}</h3>
@@ -204,7 +212,7 @@ Alert-danger
 
 <h3>Example badge {{< badge "danger" >}}123{{< /badge >}}</h3>
 
-## Card
+## card
 
 ```
 TODO
