@@ -7,9 +7,8 @@
   {{ $count := .Count }}
   {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
   <h2 class="post-list">
-    <a href="{{ .Permalink }}">
-      {{ printf "(%d) %s" $count $name }}
-    </a>
+    <span class="badge">{{ $count }}</span> 
+    <a href="{{ .Permalink }}">{{ $name }}</a>
   </h2>
   {{ end }}
 {{ end }}
