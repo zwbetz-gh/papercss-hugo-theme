@@ -41,10 +41,9 @@ blockquote {
 
 /* toc */
 .toc {
-  font-size: 0.85em;
   padding: 1em;
   margin-top: 1em;
 }
 .toc h2 {
-  font-size: 1.15em;
+  font-size: 1.3em;
 }

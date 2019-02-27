@@ -4,7 +4,9 @@
   <body>
     <div class="container paper">
       {{ partial "nav.html" . }}
-      {{ block "main" . }}{{ end }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
       {{ partial "google-analytics-async.html" . }}
   </div>
   </body>
