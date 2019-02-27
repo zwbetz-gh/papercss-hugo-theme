@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/zwbetz-gh/papercss-hugo-theme/blob/master/LICENSE"
 description = "A Hugo theme made with PaperCSS, the less formal CSS framework."
 homepage = "https://github.com/zwbetz-gh/papercss-hugo-theme"
-tags = ["TODO"]
-features = ["TODO"]
+tags = ["blog", "paper", "informal"]
+features = ["blog", "toc", "shortcodes"]
 min_version = "0.48"
 
 [author]
