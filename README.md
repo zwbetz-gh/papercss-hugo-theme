@@ -76,12 +76,12 @@ toc: false
 
 ## Disable summary for a blog post
 
-The homepage blog post listing shows a summary for each post. To disable this for an individual post set `summary` to `false`. For example:
+The homepage blog post listing shows a summary for each post. To disable this for an individual post set `show_summary` to `false`. For example:
 
 ```
 ---
 title: "My page with some stellar content"
-summary: false
+show_summary: false
 ---
 ```
 

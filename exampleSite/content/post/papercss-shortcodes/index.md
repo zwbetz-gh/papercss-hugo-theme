@@ -2,7 +2,7 @@
 title: "Papercss Shortcodes"
 date: 2019-02-26T13:50:01-06:00
 tags: [shortcodes]
-summary: false
+show_summary: false
 ---
 
 ## border

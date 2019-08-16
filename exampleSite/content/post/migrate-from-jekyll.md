@@ -8,7 +8,7 @@ series:
 - Hugo 101
 aliases:
 - /blog/migrate-from-jekyll/
-summary: false 
+show_summary: false 
 ---
 
 ## Move static content to `static`

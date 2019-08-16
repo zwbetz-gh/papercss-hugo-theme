@@ -1,11 +1,12 @@
 <h1>{{ .Title }}</h1>
-{{ range where .Pages.ByPublishDate.Reverse "Section" "post" }}
-  <h2 class="post-list {{ if ne .Params.summary false }}summary{{ end }}">
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+  <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
     <a href="{{ .Permalink }}">
       {{ .Title }}
     </a>
   </h2>
-  {{ if ne .Params.summary false }}
+  {{ if ne .Params.show_summary false }}
     {{ .Summary }}
   {{ end }}
 {{ end }}
