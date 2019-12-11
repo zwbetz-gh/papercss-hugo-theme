@@ -5,7 +5,7 @@ description = "A Hugo theme made with PaperCSS, the less formal CSS framework."
 homepage = "https://github.com/zwbetz-gh/papercss-hugo-theme"
 tags = ["blog", "paper", "informal"]
 features = ["blog", "toc", "shortcodes"]
-min_version = "0.58.3"
+min_version = "0.60.1"
 
 [author]
   name = "Zachary Betz"
