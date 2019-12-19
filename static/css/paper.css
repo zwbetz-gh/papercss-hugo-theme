@@ -647,7 +647,7 @@ pre code {
 html {
   color: #41403e;
   font-family: Neucha,sans-serif;
-  font-size: 20px
+  font-size: 17px
 }
 a,
 button,
@@ -674,16 +674,16 @@ h6 {
   font-weight: 400
 }
 h1 {
-  font-size: 4rem
+  font-size: 1.9rem
 }
 h2 {
-  font-size: 3rem
+  font-size: 1.6rem
 }
 h3 {
-  font-size: 2rem
+  font-size: 1.3rem
 }
 h4 {
-  font-size: 1.5rem
+  font-size: 1.1rem
 }
 h5 {
   font-size: 1rem
