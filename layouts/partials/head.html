@@ -7,9 +7,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ if .IsHome }}
-    {{ with .Site.Params.homeMetaContent }}
-      <meta name="description" content="{{ . | plainify }}">
-    {{ end }}
+      <meta name="description" content="{{ default .Site.Params.Description .Site.Params.homeMetaContent | plainify }}">
   {{ end }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
