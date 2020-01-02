@@ -5,9 +5,10 @@
 
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
-
   {{ if .IsHome }}
       <meta name="description" content="{{ default .Site.Params.Description .Site.Params.homeMetaContent | plainify }}">
+	{{ else }}
+      <meta name="description" content="{{ .Description | plainify }}">
   {{ end }}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
