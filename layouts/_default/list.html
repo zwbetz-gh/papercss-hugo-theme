@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
+{{ .Content }}
 {{ $pages := .Pages }}
 {{ range $pages.ByPublishDate.Reverse }}
   <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
