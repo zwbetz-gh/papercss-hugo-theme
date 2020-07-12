@@ -4,6 +4,11 @@ defaultContentLanguage: en
 title: PaperCSS
 theme: papercss-hugo-theme
 googleAnalytics: UA-123456789-1
+disqusShortname: yourdiscussshortname
+
+privacy:
+  disqus:
+    disable: true
 
 taxonomies:
   tag: tags
