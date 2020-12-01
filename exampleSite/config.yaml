@@ -23,6 +23,7 @@ params:
   homeMetaContent: A Hugo theme made with PaperCSS, the less formal CSS framework.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
+  navTitleLink: /
 
 menu:
   nav:
