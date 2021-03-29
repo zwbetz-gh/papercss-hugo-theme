@@ -242,3 +242,43 @@ options="900x"
 title="The Sun"
 subtitle="It's the Sun, dude"
 text="The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. [Credits](https://images.nasa.gov/details-GSFC_20171208_Archive_e000393.html)." >}}
+
+## With Markdown
+
+```
+{{</* border */>}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{</* /border */>}}
+
+{{</* color "success" */>}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{</* /color */>}}
+
+{{</* background "success" */>}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{</* /background */>}}
+
+{{</* alert "success" */>}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{</* /alert */>}}
+
+<h3>Example badge {{</* badge "success" */>}}[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_{{</* /badge */>}}</h3>
+```
+
+{{< border >}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{< /border >}}
+
+{{< color "success" >}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{< /color >}}
+
+{{< background "success" >}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{< /background >}}
+
+{{< alert "success" >}}
+[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_
+{{< /alert >}}
+
+<h3>Example badge {{< badge "success" >}}[link](https://gohugo.io/functions/markdownify/), **bold**, _italic_{{< /badge >}}</h3>
