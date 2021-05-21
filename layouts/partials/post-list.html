@@ -2,7 +2,7 @@
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
   <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
-    <a href="{{ .Permalink }}">
+    <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h2>

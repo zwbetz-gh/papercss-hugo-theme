@@ -1,6 +1,6 @@
 /* base */
 body {
-  background-image: url('{{ "img/geometry2.png" | absURL }}');
+  background-image: url('{{ "img/geometry2.png" | relURL }}');
 }
 
 /* anchors */

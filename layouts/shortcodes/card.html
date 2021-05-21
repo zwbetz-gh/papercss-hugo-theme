@@ -18,8 +18,8 @@
 {{ end }}
 
 <div class="card row flex-center" style="">
-  <a href="{{ $original.Permalink }}" class="img-link">
-    <img src="{{ $new.Permalink }}">
+  <a href="{{ $original.RelPermalink }}" class="img-link">
+    <img src="{{ $new.RelPermalink }}">
   </a>
   <div class="card-body">
   {{ with (.Get "title" )}}
