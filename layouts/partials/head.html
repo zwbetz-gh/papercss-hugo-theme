@@ -24,7 +24,7 @@
 
   {{ $customCssPath := "css/custom.css" }}
   {{ $customCss:= resources.Get $customCssPath | resources.ExecuteAsTemplate $customCssPath . }}
-  <link rel="stylesheet" type="text/css" href="{{ $customCss.Permalink }}">
+  <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
 
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
