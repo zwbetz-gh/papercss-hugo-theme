@@ -26,7 +26,7 @@ https://papercss-hugo-theme.netlify.com/
 
 ## Minimum Hugo version
 
-Hugo version `0.60.1` or higher is required. View the [Hugo releases](https://github.com/gohugoio/hugo/releases) and download the binary for your OS.
+Hugo version `0.81.0` or higher is required. View the [Hugo releases](https://github.com/gohugoio/hugo/releases) and download the binary for your OS.
 
 ## Installation
 
