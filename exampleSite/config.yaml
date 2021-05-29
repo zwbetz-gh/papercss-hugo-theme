@@ -19,6 +19,9 @@ permalinks:
 imaging:
   quality: 99
 
+# To disable, set to a large value
+paginate: 5
+
 params:
   homeMetaContent: A Hugo theme made with PaperCSS, the less formal CSS framework.
   # For more date formats see https://gohugo.io/functions/format/
