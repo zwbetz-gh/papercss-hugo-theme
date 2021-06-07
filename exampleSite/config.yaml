@@ -19,7 +19,7 @@ permalinks:
 imaging:
   quality: 99
 
-# To disable, set to a value larger then the maximum number posts/articles on your site (i.e. 100)
+# To disable, set to an extremely large value, such as 999999
 paginate: 5
 
 params:
