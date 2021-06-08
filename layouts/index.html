@@ -2,8 +2,9 @@
 
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ range $pages.ByPublishDate.Reverse }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+
+{{ range $paginator.Pages.ByPublishDate.Reverse }}
   <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
@@ -13,4 +14,5 @@
     {{ .Summary }}
   {{ end }}
 {{ end }}
+{{ template "partials/pagination.html" . }}
 {{ end }}
