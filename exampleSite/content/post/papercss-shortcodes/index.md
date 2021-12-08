@@ -5,6 +5,26 @@ tags: [shortcodes]
 show_summary: false
 ---
 
+## collapsible
+
+```
+{{</* collapsible "First" */>}}
+Bacon ipsum dolor sit amet beef venison beef ribs kielbasa.
+{{</* /collapsible */>}}
+
+{{</* collapsible "Second" */>}}
+Bacon ipsum dolor sit amet landjaeger sausage brisket.
+{{</* /collapsible */>}}
+```
+
+{{< collapsible "First" >}}
+Bacon ipsum dolor sit amet beef venison beef ribs kielbasa.
+{{< /collapsible >}}
+
+{{< collapsible "Second" >}}
+Bacon ipsum dolor sit amet landjaeger sausage brisket.
+{{< /collapsible >}}
+
 ## border
 
 ```

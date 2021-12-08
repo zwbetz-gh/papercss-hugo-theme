@@ -1,0 +1,16 @@
+{{ $summary := .Get 0 | markdownify }}
+{{ $body := .Inner | markdownify }}
+
+{{ $seed := "yolo" }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+{{ $id := printf "collapsible_%s" $random }}
+
+<div class="collapsible">
+  <input id="{{ $id }}" type="checkbox" name="collapsible">
+  <label for="{{ $id }}">
+    {{ $summary }}
+  </label>
+  <div class="collapsible-body">
+    {{ $body }}
+  </div>
+</div>
