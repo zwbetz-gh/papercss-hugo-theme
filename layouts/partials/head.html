@@ -31,11 +31,8 @@
   <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
   
   {{ if hugo.IsProduction }}
-    {{ $gaid := .Site.GoogleAnalytics }}
-    {{ if hasPrefix $gaid "G-"}}
+    {{ with .Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics.html" . }}
-    {{ else }}
-      {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
   {{ end }}
 
