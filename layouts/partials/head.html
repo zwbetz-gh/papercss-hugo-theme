@@ -30,7 +30,7 @@
   {{ $customCss:= resources.Get $customCssPath | resources.ExecuteAsTemplate $customCssPath . }}
   <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
   
-  {{ if and (hugo.IsProduction) }}
+  {{ if hugo.IsProduction }}
     {{ $gaid := .Site.GoogleAnalytics }}
     {{ if hasPrefix $gaid "G-"}}
       {{ template "_internal/google_analytics.html" . }}
