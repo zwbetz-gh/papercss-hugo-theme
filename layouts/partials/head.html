@@ -31,9 +31,7 @@
   <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
   
   {{ if hugo.IsProduction }}
-    {{ with .Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics.html" . }}
-    {{ end }}
+    {{ template "_internal/google_analytics.html" . }}
   {{ end }}
 
   {{ $title := print .Title " | " .Site.Title }}
