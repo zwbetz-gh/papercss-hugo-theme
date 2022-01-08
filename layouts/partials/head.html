@@ -29,6 +29,10 @@
   {{ $customCssPath := "css/custom.css" }}
   {{ $customCss:= resources.Get $customCssPath | resources.ExecuteAsTemplate $customCssPath . }}
   <link rel="stylesheet" type="text/css" href="{{ $customCss.RelPermalink }}">
+  
+  {{ if hugo.IsProduction }}
+    {{ template "_internal/google_analytics.html" . }}
+  {{ end }}
 
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
